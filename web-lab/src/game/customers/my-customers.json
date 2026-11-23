@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "name": "補習班國中生",
+    "intro": "下課趕補習的國中生",
+    "budget": 50,
+    "wants": ["招牌鍋貼", "紅茶"],
+    "hates": null,
+    "days": [1, 2, 3, 4, 5],
+    "count": 8,
+    "lines": {
+      "bought": "吃飽了，補習不會睡著。",
+      "hated_on_menu": "這個我不敢吃，掰掰。",
+      "not_on_menu": "沒有招牌鍋貼？去超商好了。",
+      "sold_out": "招牌賣完了？太晚下課了。",
+      "too_expensive": "零用錢不夠啦，太貴了。"
+    }
+  },
+  {
+    "name": "熬夜大學生",
+    "intro": "期末熬夜趕報告的大學生",
+    "budget": 80,
+    "wants": ["韭菜鍋貼", "豆漿"],
+    "hates": "玉米鍋貼",
+    "days": [3, 4, 5],
+    "count": 6,
+    "lines": {
+      "bought": "有吃有精神，報告衝了。",
+      "hated_on_menu": "玉米的味道我受不了。",
+      "not_on_menu": "沒有韭菜鍋貼？好失落。",
+      "sold_out": "韭菜的賣完了，晚來一步。",
+      "too_expensive": "這價格，下週只能吃泡麵。"
+    }
+  },
+  {
+    "name": "體育老師",
+    "intro": "帶社團練習的體育老師",
+    "budget": 100,
+    "wants": ["招牌鍋貼", "酸辣湯"],
+    "hates": null,
+    "days": [1, 2, 5],
+    "count": 4,
+    "lines": {
+      "bought": "練完球吃這個剛剛好。",
+      "hated_on_menu": "這個不合口味，先走了。",
+      "not_on_menu": "沒有招牌鍋貼？下次吧。",
+      "sold_out": "招牌賣完了？真可惜。",
+      "too_expensive": "老師薪水也有限，太貴了。"
+    }
+  }
+]
